@@ -18,7 +18,7 @@ void bubbleSort(int a[], int n)
     }
 }
 
-void outputData(int data[], int elementCount)
+void OutputData(int data[], int elementCount)
 {
     for (int index = 0; index < elementCount; index++)
     {
@@ -37,6 +37,6 @@ int main()
     for (i = 0; i < n; i++)
         scanf("%d", &num[i]);
     bubbleSort(num, n);
-    outputData(num, n);
+    OutputData(num, n);
     return 0;
 }

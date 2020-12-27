@@ -15,7 +15,7 @@ int findMin(int data[], int startLoc, int endLoc)
 }
 
 
-void outputData(int data[], int elementCount)
+void OutputData(int data[], int elementCount)
 {
     for (int index = 0; index < elementCount; index++)
     {
@@ -37,7 +37,7 @@ void selectSort(int data[], int elementCount)
         data[limit] = data[minLoc];
         data[minLoc] = temp;
 
-        outputData(data, elementCount);
+        OutputData(data, elementCount);
     }
 }
 
